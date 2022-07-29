@@ -20,7 +20,7 @@ File or Folder | Purpose
 
 ## How to run UI
 - Run `cd app/inquiry-ui`
-- Run 'npm install`
+- Run `npm install`
 - Run `npm start`
 - A browser opens with List Report UI
 
