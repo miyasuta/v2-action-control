@@ -15,13 +15,12 @@ module.exports = function () {
     })   
 
     this.on ('start', async (req)=> {
-        return req.error(404, 'Error message')
-        // const id = req.params[0]
-        // const n = await UPDATE(Inquiries).set({ 
-        //     status_code:'2',
-        //     startedAt: Date.now()
-        // }).where ({ID:id}).and({status_code:'1'})
-        // n > 0 || req.error (404) 
+        const id = req.params[0]
+        const n = await UPDATE(Inquiries).set({ 
+            status_code:'2',
+            startedAt: Date.now()
+        }).where ({ID:id}).and({status_code:'1'})
+        n > 0 || req.error (404) 
     })
 
     this.on('close', async (req) => {
