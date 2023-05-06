@@ -14,7 +14,7 @@
     "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run --in-memory"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",

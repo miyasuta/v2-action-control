@@ -85,7 +85,8 @@
           "refreshAfterChange": false,
           "metadataUrlParams": {
             "sap-value-list": "none"
-          }
+          },
+          "useBatch": false
         }
       },
       "@i18n": {
